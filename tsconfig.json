@@ -1,0 +1,44 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "strictNullChecks": false,
+    "resolveJsonModule": true,
+    "module": "NodeNext",
+    "jsx": "react",
+    "target": "ES5",
+    "lib": [
+      "ES5",
+      "ES6",
+      "DOM"
+    ],
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "nodenext",
+    "forceConsistentCasingInFileNames": false,
+    "types": [
+      "node"
+    ],
+    "baseUrl": "./",
+    "paths": {
+      "Components/*": [
+        "src/components/*"
+      ],
+      "Pages/*": [
+        "src/pages/*"
+      ],
+      "Shared/*": [
+        "src/shared/*"
+      ],
+      "Assets/*": [
+        "src/assets/*"
+      ],
+      "Mocks/*": [
+        "src/mocks/*"
+      ]
+    }
+  },
+  "include": [
+    "./src/"
+  ]
+}
